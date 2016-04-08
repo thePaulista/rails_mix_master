@@ -33,16 +33,18 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
-  gem 'rspec-rails'
-  gem 'capybara'
-  gem 'launchy'
-  gem 'capybara-rails'
-  gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
-  gem 'rake', '~> 10.1.1'
-end
+ group :development, :test do
+   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+   gem 'byebug'
+   gem 'rspec-rails'
+   gem 'capybara'
+   gem 'launchy'
+   gem 'capybara-rails'
+   gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
+   gem 'rake', '~> 10.1.1'
+   gem 'factory_girl_rails'
+   gem 'database_cleaner'
+ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
