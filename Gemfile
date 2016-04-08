@@ -41,6 +41,7 @@ group :development, :test do
   gem 'launchy'
   gem 'capybara-rails'
   gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
+  gem 'rake', '~> 10.1.1'
 end
 
 group :development do
