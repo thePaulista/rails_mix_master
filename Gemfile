@@ -47,4 +47,4 @@ group :development do
   gem 'web-console', '~> 2.0'
 end
 
-ruby '2.2.1p85'
+ruby '2.2.1'
