@@ -9,7 +9,7 @@ RSpec.feature "User can edit an artist's page" do
     updated_name = "Spica"
     artist = Artist.create!(name: "Crayon Pop", image_path:  "ohyeah.jpg")
 
-    visit artist_url(artist)
+    visit artist_path(artist)
     click_on "Edit"
     fill_in "artist_name", with: updated_name
     click_on "Update Artist"
