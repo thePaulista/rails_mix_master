@@ -18,7 +18,7 @@ class ArtistsController < ApplicationController
     else
       render :edit
     end
-  end
+ end
 
   def create
     @artist = Artist.create(artist_params)
@@ -45,3 +45,4 @@ class ArtistsController < ApplicationController
     params.require(:artist).permit(:name, :image_path)
   end
 end
+
