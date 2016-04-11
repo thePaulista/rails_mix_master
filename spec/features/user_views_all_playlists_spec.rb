@@ -12,4 +12,3 @@ RSpec.feature "User can view all playlist index" do
   end
 end
 
-
